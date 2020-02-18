@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temper</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">one</a></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">three</a></li>
+        </ul>
+        <nav>
+        <div class="nav-wrapper blue darken-3">
+            <a href="#!" class="brand-logo">Temper</a>
+            <ul class="right hide-on-med-and-down">
+                <!-- <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li> -->
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card">
+                    <div class="card-content">
+                        <h1 class="timeString" id="hoursText">00:</h1>
+                        <h1 class="timeString" id="minutesText">00:</h1>
+                        <h1 class="timeString" id="secondsText">00</h1>
+                        
+                    </div>
+                    <div class="card-action">
+                        <a id="clockIn" class="waves-effect waves-light btn blue"><i class="material-icons left">cloud</i>Clock in</a>
+                        <a id="clockOut" class="waves-effect waves-light btn orange"><i class="material-icons left">cloud</i>Clock out</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m8">
+                <div class="card-panel">
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/main.js"></script> 
+</body>
+</html>
